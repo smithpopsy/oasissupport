@@ -44,7 +44,22 @@
  }
 
 
-.support1{
+
+
+
+ .middlechild1{
+    width:60%;
+    margin: 0 auto;
+    border: 2px solid yellow;
+    display: flex;
+ }
+
+ .{
+    margin-bottom: 80px;
+ }
+
+ 
+ .support1{
     color: #00084A;
     font-size: 44px;
     font-family:Helvetica;
@@ -77,15 +92,17 @@
     font-family:'Inter', sans-serif;
     letter-spacing: 0.08px;
     opacity: 0.800000011920929;
-    
+    margin-bottom: 20px;
 }
 
 .childimage{
     border-radius: 200px;
-    height: 250px;
+    height: 300px;
     flex-shrink: 0;
     display: flex;
     justify-content:space-around;
+    border: 2px solid green;
+    margin: 0 auto;
 }        
     
 
@@ -134,6 +151,11 @@
     width: 15%;
     margin-left: 26%;
     border-radius: 10px;
+}
+
+
+.donate{
+    /* background-color: white; */
 }
    
 
