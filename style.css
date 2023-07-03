@@ -45,23 +45,40 @@
 
 
 
-
+.middlechild{
+    width: 100%;
+}
 
  .middlechild1{
-    width:60%;
+    /* width:60%; */
     margin: 0 auto;
     border: 2px solid yellow;
     display: flex;
+    width: 60%;
  }
+
+ .left{
+    width: 70%;
+    border: 2px solid green;
+ }
+
+ .right{
+    border: 2px solid red;
+    
+ }
+
+
+
 
  .middlechild2{
     width:60%;
     margin: 0 auto;
     border: 2px solid yellow;
+    width: 60%;
  }
 
  .middlechild3{
-    width:60%;
+    width: 60%;
     margin: 0 auto;
     border: 2px solid yellow;
     display: flex;
@@ -128,17 +145,21 @@
     margin-bottom: 20px;
 }
 
-.childimage{
+ 
+
+.right{
     border-radius: 220px;
     height: 200px;
     flex-shrink: 0;
     display: flex;
     justify-content:space-around;
-    border: 2px solid green;
+    border: 2px solid yellow;
     margin-bottom: 20px;
     /* padding: 100px auto; */
     margin-left: 100px;
-}        
+    width: 30%;
+    
+}
     
 
 .Volunteer1{
