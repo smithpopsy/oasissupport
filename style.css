@@ -426,7 +426,46 @@
     .delete{
         display: block;
     }
-    
+
+
+    .contact{
+        color: #00084A;
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: -1.8px;
+        text-align: center;
+    }
+    .form{
+        color: #000;
+        text-align: center;
+        font-size: 16px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0.08px;
+    }
+
+    .submit{
+        width: 90%;
+        margin: 0 auto;
+        padding: 15px 30px;
+    }
+
+    .donate{
+        color: #00084A;
+        text-align: center;
+        /* TOI Heading 24px */
+        font-size: 24px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 125.5%;
+        letter-spacing: -1.2px;
+        margin: 0 auto;
+        
+    }
+
 
 }
 
