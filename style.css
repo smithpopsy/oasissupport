@@ -99,6 +99,7 @@
     font-size: 36px;
     font-weight: 700;
     letter-spacing: -1.8px;
+    /* text-align: center; */
     
 }
 
@@ -217,6 +218,7 @@
     font-size: 36px;
     font-weight: 700;
     letter-spacing: -1.8px;
+    text-align: center;
     
 }
 
@@ -252,7 +254,7 @@
 
 .updiv3{
     background-color:#010422;
-    width: 100%;
+    /* width: 100%; */
     /* border: 10px solid green; */
 }
 
@@ -260,7 +262,7 @@
     display: flex;
     justify-content: space-around;
     padding-top: 2%;
-    width: 55%;
+    /* width: 100%; */
 
 }
 
@@ -276,7 +278,7 @@
 .oasisimage2{
     margin-left: -25px;
     color: white;
-    height: -900px;
+    /* height: -900px; */
     margin-top: -50px;
 }
 
@@ -293,7 +295,7 @@
     margin-top: 25px;
     display: flex;
     justify-content: space-evenly;
-    margin-left: -20%;
+    /* margin-left: -20%; */
 }
 
 .h0{
@@ -420,7 +422,8 @@
 
 @media only screen and (max-width: 600px) {
     .middle{
-        display: none;
+        /* display: none; */
+        width: 100%;
 
     }
     .delete{
@@ -447,9 +450,10 @@
     }
 
     .submit{
-        width: 90%;
+        width: 30%;
         margin: 0 auto;
         padding: 15px 30px;
+        margin-top: 20px;
     }
 
     .donate{
@@ -470,6 +474,9 @@
         width: 100%;
     }
 
+    .helo{
+        margin-top: 20px;
+    }
 
 }
 
